@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CDPWin.Common\CDPWin.Common.csproj">
+      <Project>{b5440297-757f-467d-b2a1-32c4c99554d2}</Project>
+      <Name>CDPWin.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
